@@ -1,0 +1,32 @@
+※ 기술 스택
+   1. 적용 언어 : Java(버전 미정), HTML5, CSS, Javascript
+   2. 프레임워크 : Spring
+   3. DBMS : MySQL
+   4. 형상관리 : Gituhub
+   5. 의사소통관리 : KakaoTalk
+   6. 클라우드 서비스 : Amazon Web Service
+   7. IDE : Visual Studio Code, Eclipse, Eclipse STS(Spring Tool Suite), Sublime Text
+   8. WAS : Tomcat
+   9. Web Server : Apache
+
+※ 스프링 개발 환경 세팅
+https://freestrokes.tistory.com/78
+
+※ 웹페이지 템플릿 사이트
+https://html5up.net/
+https://colorlib.com/wp/
+
+# 샘플
+https://html5up.net/editorial
+https://html5up.net/highlights
+
+※ 회의록 틀
+1. 프로젝트 진행 관련 설명(Github 폴더 설명)
+   - Outline.txt 를 따라서 설명
+
+2. 기능 및 사이트 디자인 토의
+
+3. 개발 계획 토의
+
+4. 개발 역할 분담
+   
