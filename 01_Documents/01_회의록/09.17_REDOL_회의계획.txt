@@ -25,8 +25,69 @@ https://html5up.net/highlights
    - Outline.txt 를 따라서 설명
 
 2. 기능 및 사이트 디자인 토의
+   지원금 100을 통해 유료 템플릿 구매 - 확인 필요
+   
 
+============================================
+- 기능 -
+인스타그램 링크 연결
+1. 계정 관련 기능
+   ㅇ 소셜 로그인 - 구글, 페이스북 계정 연동을 통한 로그인
+   ㅇ 회원 정보 확인
+   ㅇ 회원 정보 수정
+
+2. 소개
+
+3. 사이드바
+
+4. 대표 상품
+
+5. 전체 상품
+
+6. 상품 상세
+
+7. 카테고리
+
+8. 검색
+
+9. 찜하기
+
+10. 리뷰
+
+11. Q & A
+
+12. 장바구니
+
+13. 배송조회
+============================================
+   
 3. 개발 계획 토의
+   1. 적용 언어 : Java(버전 미정), HTML5, CSS, Javascript
+   2. 프레임워크 : Spring
+   3. DBMS : MySQL
+   4. 형상관리 : Github
+   5. 의사소통관리 : KakaoTalk, Discord
+   6. 클라우드 서비스 : Amazon Web Service
+   7. IDE : Visual Studio Code, Eclipse, Eclipse STS(Spring Tool Suite), Sublime Text, 인텔리 J
+   8. WAS : Tomcat
+   9. Web Server : Apache
+
+   방식
+   서버에서 개발 하는 방식
+
+   스프링 빌드도구 조사
+   maven, gradle
 
 4. 개발 역할 분담
-   
+   # 선행 조건
+   1. IDE 결정 필요
+   2. AWS 조사 필요
+   3. 각자 프로젝트 생성 정도(최소한)
+
+
+Git 사용
+branch
+merge
+
+계정 기능 - 용진
+다른 기능 - 현수
