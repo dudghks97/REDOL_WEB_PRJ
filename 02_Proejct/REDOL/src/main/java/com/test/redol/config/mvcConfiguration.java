@@ -1,4 +1,4 @@
-package com.test.demo.config;
+package com.test.redol.config;
 
 import java.util.concurrent.TimeUnit;
 
@@ -13,10 +13,10 @@ public class mvcConfiguration implements WebMvcConfigurer {
     @Override
     public void addResourceHandlers(final ResourceHandlerRegistry registry) {
         // 1번째 라인 : "/" 를 시작으로 하는 모든 요청을 다룬다는 의미
-        // 2번째 라인 : 1번에 해당하는 요청을 처리할 자원을 찾을 위치(템플릿 위치)
-        // 3번째 라인 : 요청에 대한 캐시를 10분으로 설정한 것
-        registry.addResourceHandler("/**")
-                .addResourceLocations("classpath:/templates/")
-                .setCacheControl(CacheControl.maxAge(10, TimeUnit.MINUTES));
+        // 2번째 라인 : 1번에 해당하는 요청을 처리할 자원을 찾을 위치(여기서는 정적파일위치)
+        // 3번째 라인 : 요청에 대한 캐시를 5분으로 설정한 것
+        registry.addResourceHandler("resources/**")
+                .addResourceLocations("classpath:/static/")
+                .setCacheControl(CacheControl.maxAge(5, TimeUnit.MINUTES));
     }
 }
