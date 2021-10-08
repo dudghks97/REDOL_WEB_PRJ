@@ -12,6 +12,15 @@ repositories {
 	mavenCentral()
 }
 
+// 설정 부분, 이렇게하면 소스파일 수정 시 프로젝트가 업데이트 되어야함
+// 근데 안됨
+configurations {
+	developmentOnly
+	runtimeClasspath {
+		extendsFrom developmentOnly
+	}
+}
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
