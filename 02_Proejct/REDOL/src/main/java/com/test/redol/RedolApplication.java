@@ -9,5 +9,4 @@ public class RedolApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RedolApplication.class, args);
 	}
-
 }
