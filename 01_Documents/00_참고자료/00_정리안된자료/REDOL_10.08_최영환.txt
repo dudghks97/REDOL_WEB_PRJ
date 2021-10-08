@@ -1,0 +1,51 @@
+10.08
+※ html 매핑 관련
+# index.html 연결 완료
+   - 다른 페이지들 연결 필요함
+
+# 정적파일 매핑 관련
+redol/config 디렉토리
+mvcConfiguration.java의 addResourceHandlers 메소드 참고
+
+# templates, static
+static은 정적파일 경로, templates 는 html 문서 경로임
+templates의 html을 static으로 옮겨도 상관이 없을지
+
+# html 파일 내부에서의 정적 리소스 경로
+static/ 을 명시해야함
+
+# html 매핑
+PageController.java 파일에서 메소드 작성을 통해 진행
+navbar 매핑의 경우 html 내부에서 href로 매핑
+파일 참고
+
+# 참고자료
+https://raadi.tistory.com/87	// 정적파일 매핑관련
+==================================================================
+
+※ html extend 관련
+navbar, footer 등 겹치는 구역에 대해 html의 extend 를 활용해 중복소스를 제거하는것이 나아보임
+index.html 뜯어서 나눠봐야함
+
+==================================================================
+
+※ 프로젝트 이름 변경 관련
+# setting.gradle 변경
+rootProejct.name = '변경할 이름'
+
+# 프로젝트이름Application.java
+파일 이름 변경 및 내부 클래스 변경
+main 함수 Application에서 run 함수 인자 변경
+
+# build 디렉토리 bootRunMainClassName 파일
+ex) com.test.demo.DemoApplication -> com.test.redol.RedolApplication
+
+===================================================================
+
+※ 패치노트
+1. index.html 연결 완료, about.html 매핑 완료
+2. index.html 에서 NEOS 와 HOME 내비게이션바 클릭 시 홈페이지로 매핑
+3. 프로젝트 이름 변경 완료
+4. 정적파일 매핑 완료
+
+===================================================================
