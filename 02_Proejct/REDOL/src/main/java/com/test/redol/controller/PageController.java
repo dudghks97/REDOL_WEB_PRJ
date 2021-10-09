@@ -2,6 +2,10 @@ package com.test.redol.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+//import org.springframework.web.bind.annotation.RequestMapping;
+//import org.springframework.web.bind.annotation.RequestMethod;
+//import org.springframework.web.bind.annotation.RequestParam;
+
 
 // index 페이지의 경우 따로 매핑해주지 않아도 알아서 이동함
 // html 에서 href로 url 매핑 해주면됨
