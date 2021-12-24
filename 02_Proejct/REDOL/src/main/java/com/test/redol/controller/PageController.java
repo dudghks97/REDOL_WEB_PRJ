@@ -36,4 +36,28 @@ public class PageController {
     public String contact() {
         return "contact";
     }
+
+    // Testimonials 페이지
+    @GetMapping("/testimonials")
+    public String testimonials(){
+        return "testimonials";
+    }
+
+    // Gallery
+    @GetMapping("/gallery")
+    public String gallery(){
+        return "gallery";
+    }
+
+    // FAQ
+    @GetMapping("/faq")
+    public String FAQ(){
+        return "faq";
+    }
+
+    // Why Choose Us
+    @GetMapping("/why-choose-us")
+    public String why_choose_us(){
+        return "why-choose-us";
+    }
 }

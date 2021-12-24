@@ -1,0 +1,24 @@
+# Springboot html layout 사용법
+1) html 태그에 thymeleaf 명시 및 layout 명시
+<html
+    lang="ko"
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org"
+    xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"
+    xmlns:layout="http://www.ultraq.net.uz/thymeleaf/layout"
+    layout:decorator="layout">
+
+2) 이후 section 태그 속성 layout:fragment="body_frag_name" 의 방식으로 진행
+  <section layout:fragment="content">
+위 태그 내의 모든 코드들은 layout.html 의 section layout:fragment="body_frag_name" 태그 내에 재정의 됨
+<body> 태그 내부에 재정의하는 방식
+
+3) head 태그도 재정의가 가능함
+layout.html 의 head 태그에서 css를 참조하는데, 해당 참조 코드는 재작성하지 않아도 적용됨
+단순히 head 태그의 속성에 th:fragment="head_frag_name" 를 추가하고 작성하면 완료
+
+4) 이외의 코드들은 layout.html 의 것을 사용하게됨 -> 상속의 개념이라고 보면 될 것 같음
+
+※ Patch_Note
+templates 디렉토리 html -> thymeleaf layout 적용완료
+모든 페이지 연결 완료
